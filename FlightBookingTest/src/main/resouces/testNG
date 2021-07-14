@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClearTrip Flight booking Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Flight booking Test Cases">
+		<classes>
+			<class name="com.cleartrip.qa.testcases.HomePageTest"></class>
+			<class name="com.cleartrip.qa.testcases.FlightSelectionTest"></class>
+			<class name="com.cleartrip.qa.testcases.ContactsPageTest"></class>
+
+		</classes>
+	</test>
+</suite>
